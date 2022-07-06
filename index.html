@@ -2,15 +2,82 @@
 <html lang="en">
 
 <head>
+    <!--The <head> HTML element contains machine-readable information (metadata)-->
     <meta charset="UTF-8">
+    <!--he <meta> HTML element represents Metadata that cannot be represented by other HTML meta-related elements-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Sample</title>
+    <!--The <title> HTML element defines the document's title that is shown in a Browser's title bar or a page's tab.-->
 </head>
 
 <body>
-    <h1>Hello HTML</h1>
-    <img src="img/picture.jpg" alt="tip">
+    <!--The <body> HTML element represents the content of an HTML document-->
+    <main>
+        <!--The <main> HTML element represents the dominant content of the body of a document.-->
+        <h1>Hello HTML</h1>
+        <!--The <h1> to <h6> HTML elements represent six levels of section headings-->
+        <img src="img/picture.jpg" alt="man after fight">
+        <!--The <img> HTML element embeds an image into the document.-->
+        <section>
+            <!--The <section> HTML element represents a generic standalone section of a document, which doesn't have a more specific semantic element to represent it.-->
+            <p>Our best employees</p>
+            <!--The <p> HTML element represents a paragraph-->
+            <ul>
+                <!--The <ul> HTML element represents an unordered list of items, typically rendered as a bulleted list.-->
+                <li>Stanislav Skorobohatko</li>
+                <!--The <li> HTML element is used to represent an item in a list. It must be contained in a parent element: an ordered list (ol), an unordered list (ul), or a menu (menu).-->
+                <li>Denys Myron</li>
+                <li>Yuriy Pshut</li>
+            </ul>
+        </section>
+    
+<section>
+    <figure>
+        <!--The <figure> HTML element represents self-contained content, potentially with an optional caption, which is specified using the figcaption element.-->
+        <img src="img/Stanislav.jpeg" alt="Oleg with his named key.">
+        <figcaption>Stanislav <em>holds</em> his creation.</figcaption>
+        <!--The <figcaption> HTML element represents a caption or legend describing the rest of the contents of its parent figure element.-->
+        <!--The <em> HTML element marks text that has stress emphasis. The <em> element can be nested, with each level of nesting indicating a greater degree of emphasis.-->
+    </figure>
+    <h3>Top 3 dangerous persones in the World</h3>
+    <ol>
+        <!--The <ol> HTML element represents an ordered list of items — typically rendered as a numbered list.-->
+        <li>Oleg Tverdoklib</li>
+        <li>German Ganzolik</li>
+        <li>Stephaniy Bublyk</li>
+    </ol>
+    <figure>
+        <img src="/img/lasha.jpeg" alt="Georgian thief.">
+        <figcaption>Wanted <strong>for</strong> robbing a store</figcaption><!--The <strong> HTML element indicates that its contents have strong importance, seriousness, or urgency-->
+    </figure>
+</section>
+<section>
+    <h2>Who will win the fight?</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo"><!--The <form> HTML element represents a document section containing interactive controls for submitting information.-->
+          <fieldset><!--The <fieldset> HTML element is used to group several controls as well as labels (label) within a web form.
+        -->
+            <legend>Without any weapon</legend><!--The <legend> HTML element represents a caption for the content of its parent fieldset.
+            -->
+            <label><input id="stanislav" type="radio" name="stanislav-lasha" value="stanislav" checked> Stanislav</label><!--The <label> HTML element represents a caption for an item in a user interface.
+            -->
+            <!--The <input> HTML element is used to create interactive controls for web-based forms in order to accept data from the user-->
+            <label><input id="lasha" type="radio" name="stanislav-lasha" value="lasha"> Lasha</label>
+          </fieldset>
+          <fieldset>
+            <legend>KNIVES OUT(choose both if draw)</legend>
+            <input id="Stanislav" type="checkbox" name="stanislav-lasha" value="Stanislav" checked> <label for="Stanislav">Stanislav</label>
+            <input id="Lasha" type="checkbox" name="stanislav-lasha" value="Lasha"> <label for="Lasha">Lasha</label>
+          </fieldset>
+          <button type="submit">Submit</button><!--The <button> HTML element is an interactive element activated by a user with a mouse, keyboard, finger, voice command, or other assistive technology.-->
+        </form>
+</section>
+</main>
+<footer><!--The <footer> HTML element represents a footer for its nearest ancestor sectioning content or sectioning root element-->
+    <p>
+    All the characters and events depicted are fictitious. Any resemblance to a person living or dead is purely coincidental - <a href="https://www.netflix.com/browse">Paid video service</a>
+    <!--The <a> HTML element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.-->
+</p>
+  </footer>
 </body>
-
 </html>
